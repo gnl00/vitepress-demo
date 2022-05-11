@@ -24,14 +24,13 @@ export default defineConfig ({
     // VitePress uses markdown-it as the Markdown renderer
 
     lineNumbers: true,
-    // 目录 options for markdown-it-toc
-    // toc: require('markdown-it-toc'),
+    // options for markdown-it-table-of-contents
+    // npm i markdown-it-table-of-contents
+    // toc: { includeLevel: [1, 2] },
     config: (md) => {
       console.log(md)
       // 自定义外挂 use more markdown-it plugins
-      // md.use(require('markdown-it-toc'));
-
-      // 测试了一下 markdown-it-toc not work
+      // md.use(require("markdown-it-table-of-contents"));
     }
   }
 });
