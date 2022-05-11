@@ -46,7 +46,7 @@ const mouseLeave = evt => {
 </script>
 
 <template>
-  <div class="right-sidebar">
+  <div id="rightSidebar" class="right-sidebar">
     <ul v-for="item in catalog" @mouseenter="mouseEnter" @mouseleave="mouseLeave">
       <li>
         <a :href="'#' + item.slug">{{item.title}}</a>
@@ -77,5 +77,16 @@ const mouseLeave = evt => {
 
 .right-sidebar ul {
   list-style: none;
+}
+
+#rightSidebar {
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  opacity: 0.5;
+}
+
+#rightSidebar:hover {
+  opacity: 1;
+  transform: scale(102%, 103%);
 }
 </style>

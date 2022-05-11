@@ -1,9 +1,9 @@
 import DefaultTheme  from "vitepress/theme";
 import GlobalComp from '../../component/GlobalComp.vue';
 import Layout from './Layout.vue';
+import './style.css'
 
 console.log('theme index')
-
 export default {
   ...DefaultTheme,
   enhanceApp({app}) {

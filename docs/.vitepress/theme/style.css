@@ -1,0 +1,7 @@
+/* .vitepress/theme/custom.css */
+/* 更改背景颜色与强调色 */
+/* 可修改的样式：https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+:root {
+    --c-brand: #646cff;
+    --c-brand-light: #747bff;
+}

@@ -1,14 +1,10 @@
 ---
-sidebarDepth: 3
+sidebarDepth: 2
 ---
 
 <GlobalComp />
 
 # BBB
-
-:::details Content
-[[toc]]
-:::
 
 ## This is file BBB
 
