@@ -1,3 +1,3 @@
-# vitepress-starter
+# vitepress-demo
 
 A vitepress demo.
